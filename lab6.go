@@ -66,7 +66,7 @@ func main(){
 	case 2:
 		fmt.Print("Input your message : ")
 		message = readwithSpace(message)
-		fmt.Print("Input a secret key between 0-255 :")
+		fmt.Print("Input a secret key between :")
 		fmt.Scan(&key)
 		fmt.Println("Given: ",message)
 	    fmt.Println("Decrypt: ",xorDecrypt(message,key))
